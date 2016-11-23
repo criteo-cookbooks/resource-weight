@@ -15,6 +15,8 @@ Example use cases:
 - adopt rules to avoid running chef-client during peak hours if its impact has a weigh above a threshold
 - simplify definitions of [choregraphies](https://github.com/criteo-cookbooks/choregraphie)
 
+Note: The intent of this cookbook is to validate the interest of a feature that could be integrated in chef.
+
 Usage
 -----
 
