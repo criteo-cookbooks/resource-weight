@@ -3,7 +3,7 @@
 # Cookbook Name:: resource-weight
 # Spec:: default
 #
-# Copyright (c) 2016 The Authors, All Rights Reserved.
+# Copyright (c) 2016 Criteo
 
 require 'spec_helper'
 
