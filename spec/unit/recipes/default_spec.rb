@@ -8,11 +8,11 @@
 require 'spec_helper'
 
 describe 'weight-test::default' do
-  context 'When all attributes are default, on centos 7.2.1511' do
+  context 'When all attributes are default, on centos 7.5.1804' do
     let(:chef_run) do
       runner = ChefSpec::ServerRunner.new(
         platform: 'centos',
-        version:  '7.2.1511',
+        version:  '7.5.1804',
       )
       runner.converge(described_recipe)
     end
