@@ -1,20 +1,20 @@
 source 'https://rubygems.org'
 
 gem 'berkshelf'
-gem 'kitchen-vagrant'
-gem 'chefspec'
-gem 'rake'
-gem 'foodcritic'
 gem 'chef'
+gem 'chefspec'
+gem 'foodcritic'
+gem 'kitchen-vagrant'
+gem 'rake'
 
 gem 'kitchen-transport-speedy'
 group :ec2 do
-  gem 'test-kitchen'
-  gem 'kitchen-ec2', git: 'https://github.com/criteo-forks/kitchen-ec2.git', branch: 'criteo'
-  gem 'winrm',       '>= 1.6'
-  gem 'winrm-fs',    '>= 0.3'
   gem 'dotenv'
+  gem 'kitchen-ec2', git: 'https://github.com/criteo-forks/kitchen-ec2.git', branch: 'criteo'
+  gem 'test-kitchen'
+  gem 'winrm', '>= 1.6'
+  gem 'winrm-fs', '>= 0.3'
 end
 
 # Other gems should go after this comment
-gem 'rubocop', '=0.45.0'
+gem 'rubocop', '=0.64.0'
